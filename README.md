@@ -5,7 +5,8 @@ We built a multiclass classification model using a custom convolutional neural n
 Aim is to build a CNN based model which can accurately detect melanoma.
 
 **Project Pipeline:**
- 	1. _Data Reading/Data Understanding → Defining the path for train and test images._
+ 	1. Data Reading/Data Understanding → Defining the path for train and test images.
+	
 	2._ Dataset Creation→ Created train & validation dataset from the train directory with a batch size of 32. Also, make sure you resize your images to 180*180._
 	3. _Dataset visualisation → Create a code to visualize one instance of all the nine classes present in the dataset._
 	4. Model Building & training : 
