@@ -6,12 +6,12 @@ Aim is to build a CNN based model which can accurately detect melanoma.
 
 **Project Pipeline:**
  	1. _Data Reading/Data Understanding → Defining the path for train and test images._
-		2._ Dataset Creation→ Created train & validation dataset from the train directory with a batch size of 32. Also, make sure you resize your images to 180*180._
-		3. _Dataset visualisation → Create a code to visualize one instance of all the nine classes present in the dataset._
-		4. Model Building & training : 
-			→Created a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
-			→Choose an appropriate optimiser and loss function for model training
-			→Trained the model for ~20 epochs
+	2._ Dataset Creation→ Created train & validation dataset from the train directory with a batch size of 32. Also, make sure you resize your images to 180*180._
+	3. _Dataset visualisation → Create a code to visualize one instance of all the nine classes present in the dataset._
+	4. Model Building & training : 
+	→Created a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
+	→Choose an appropriate optimiser and loss function for model training
+	→Trained the model for ~20 epochs
 		5. Choose an appropriate data augmentation strategy to resolve underfitting/overfitting
 		6. Model Building & training on the augmented data :
 			→Created a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
